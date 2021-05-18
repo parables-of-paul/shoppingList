@@ -1,0 +1,176 @@
+li {
+    list-style-type: none;
+    width: 100% !important;
+}
+
+select {
+    width: 100% !important;
+    text-indent: 40% !important;
+}
+
+.listProducts {
+    width: 100% !important;
+    font-size: 3rem !important;
+    background-color: #FFFFFF;
+    border: solid 1px black;
+    padding-left: 5% !important;
+    margin-top: 0.1rem !important;
+    margin-bottom: 0.1rem !important;
+}
+
+.bathListProducts {
+    width: 100% !important;
+    font-size: 3rem !important;
+    background-image: linear-gradient(to right, #40e0d0, white) !important;
+    padding-left: 5% !important;
+}
+
+.fruitListProducts {
+    width: 100% !important;
+    font-size: 3rem !important;
+    background-image: linear-gradient(to right, lawngreen, #7ccd7c) !important;
+    padding-left: 5% !important;
+}
+
+.fridgeListProducts {
+    width: 100% !important;
+    font-size: 3rem !important;
+    background-image: linear-gradient(to right, deepskyblue, white) !important;
+    padding-left: 5% !important;
+}
+
+.freezerListProducts {
+    width: 100% !important;
+    font-size: 3rem !important;
+    background-image: linear-gradient(to right, white, #b0e2ff) !important;
+    padding-left: 5% !important;
+}
+
+.bakingListProducts {
+    width: 100% !important;
+    font-size: 3rem !important;
+    background-image: linear-gradient(to right, #eed5b7, #ffe4e1) !important;
+    padding-left: 5% !important;
+}
+
+.listProductsHeader {
+    width: 100% !important;
+    background-color: #FFFFFF;
+    padding-left: 5% !important;
+    padding-right: 2% !important;
+    margin-top: 0.1rem !important;
+    margin-bottom: 0.1rem !important;
+}
+
+.bathListProductsHeader {
+    width: 100% !important;
+    background-image: linear-gradient(to right, #40f9d0, white) !important;
+    padding-left: 5% !important;
+    padding-right: 2% !important;
+}
+
+.fruitListProductsHeader {
+    width: 100% !important;
+    background-image: linear-gradient(to right, lawngreen, #7ccd7c) !important;
+    padding-left: 5% !important;
+    padding-right: 2% !important;
+}
+
+.fridgeListProductsHeader {
+    width: 100% !important;
+    background-image: linear-gradient(to right, deepskyblue, white) !important;
+    padding-left: 5% !important;
+    padding-right: 2% !important;
+}
+
+.freezerListProductsHeader {
+    width: 100% !important;
+    background-image: linear-gradient(to right, white, #b0e2ff) !important;
+    padding-left: 5% !important;
+    padding-right: 2% !important;
+}
+
+.bakingListProductsHeader {
+    width: 100% !important;
+    background-image: linear-gradient(to right, #eed5b7, #ffe4e1) !important;
+    padding-left: 5% !important;
+    padding-right: 2% !important;
+}
+
+input {
+    margin-top: 1% !important;
+}
+
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-padding-end: 20px;
+    -moz-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -moz-padding-start: 2px;
+    background-color: #000000;
+    border: solid 1px black;
+    border-radius: 200px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#outputList {
+    margin-bottom: 200px;
+}
+
+.inputSystem {
+    width: 100% !important;
+    text-align: center !important;
+    background-color: #000000;
+    border: solid 1px black;
+    color: #FFFFFF !important;
+    border-radius: 40px !important;
+}
+
+::placeholder {
+    color: #FFFFFF !important;
+    font-style: italic !important;
+}
+
+button {
+    font-size: 2.5rem !important;
+}
+
+.listChooser3000 {
+    appearance: none;
+    background-color: #000000 !important;
+    color: white !important;
+    border-radius: 40px !important;
+}
+
+.listBtn{
+    background-color: #000000 !important;
+    color: #FFFFFF;
+    border-radius: 40px !important;
+    margin-top: 1% !important;
+    font-weight: bold !important;
+}
+
+.plusIcon{
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem !important;
+    font-weight: bold;
+}
+
+.icon {
+    height: 80px !important;
+    width: 80px !important;
+    padding: 2px 2px 5px 2px !important;
+}

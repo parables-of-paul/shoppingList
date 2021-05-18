@@ -1,0 +1,40 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <ul>
+              <!-- <lh class="display-2">Shopping List</lh> -->
+              <br>
+              <lh class="bathListProductsHeader display-3"> <img src="bathIcon.png" class="icon" />Bathroom Items</lh>
+              <% for(var i=0; i < bathroomData.length; i++){ %>
+                <li class="bathListProducts lead"><%= bathroomData[i].product %></li>
+              <% } %><br>
+              <lh class="fruitListProductsHeader display-3"> <img src="fruitbowl.png" class="icon" />Fruit & Veg Items</lh>
+              <% for(var i=0; i < fruitData.length; i++){ %>
+                <li class="fruitListProducts lead"><%= fruitData[i].product %></li>
+              <% } %><br>
+              <lh class="fridgeListProductsHeader display-3"> <img src="fridgeicon.png" class="icon" />Fridge Items </lh>
+              <% for(var i=0; i < fridgeData.length; i++){ %>
+                <li class="fridgeListProducts lead"><%= fridgeData[i].product %></li>
+              <% } %><br>
+            <lh class="freezerListProductsHeader display-3"> <img src="freezerIcon.png" class="icon" />Freezer Items </lh>
+              <% for(var i=0; i < freezerData.length; i++){ %>
+                <li class="freezerListProducts lead"><%= freezerData[i].product %></li>
+              <% } %><br>
+              <lh class="bakingListProductsHeader display-3"> <img src="bakingIcon3.png" class="icon" />Dry Goods </lh>
+              <% for(var i=0; i < bakingData.length; i++){ %>
+                <li class="bakingListProducts lead"><%= bakingData[i].product %></li>
+              <% } %><br>
+              <lh class="listProductsHeader display-3"> <img src="miscIcon.png" class="icon" />Miscellaneous Items </lh>
+              <% for(var i=0; i < miscList.length; i++){ %>
+                <li class="listProducts lead"><%= miscList[i].product %></li>
+              <% } %>
+            </ul>
+            
+            
+                
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
