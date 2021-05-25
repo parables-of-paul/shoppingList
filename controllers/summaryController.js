@@ -3,10 +3,11 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var urlencodedParser = bodyParser.urlencoded({extended: false});
 var express = require('express');
+require('dotenv').config();
 
 
 //connect to database
-mongoose.connect('mongodb+srv://paulSimmonds:Bl4upunkt!@cluster0.tyj8d.mongodb.net/shoppingList?retryWrites=true&w=majority',{useUnifiedTopology:true, useNewUrlParser: true, useCreateIndex: true}).catch(error => handleError(error));
+mongoose.connect(`mongodb+srv://${process.env.MONGOOSECRED}@cluster0.tyj8d.mongodb.net/shoppingList?retryWrites=true&w=majority`,{useUnifiedTopology:true, useNewUrlParser: true, useCreateIndex: true}).catch(error => handleError(error));
 
 // create a schema
 
